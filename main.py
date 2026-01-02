@@ -2,18 +2,17 @@ import requests
 import html
 from datetime import datetime, timezone
 
-# CONFIGURACIÓN: Lista de Revistas (Nombre e ISSN)
-# Puedes añadir más buscando su "Online ISSN" en Google.
+# CONFIGURACIÓN: Lista de Revistas
 JOURNALS = {
-    "HAHR": "1527-1900",  # Hispanic American Historical Review
+    "HAHR": "1527-1900",
     "The Americas": "1538-1234",
-    "Gender & History": "1468-0424",
+    "Gender & History": "1468-0424", 
     "Radical History": "1534-1453",
     "GLQ": "1527-9375",
-    "LARR": "1542-4278",  # Latin American Research Review
-    "JLAS": "1469-767X",  # J. Lat. Am. Studies
+    "LARR": "1542-4278",
+    "JLAS": "1469-767X",
     "Mexican Studies": "1533-8320",
-    "JILAR": "1469-9524"  # J. Iberian & Lat. Am. Research
+    "JILAR": "1469-9524"
 }
 
 def generate_rss():
@@ -22,37 +21,45 @@ def generate_rss():
 
     for name, issn in JOURNALS.items():
         try:
-            # Consultamos la API pública de CrossRef
+            # Limpiamos el nombre de la revista para evitar error con '&'
+            safe_name = html.escape(name)
+            
             url = f"https://api.crossref.org/journals/{issn}/works?sort=published&order=desc&rows=5&filter=type:journal-article"
-            r = requests.get(url, timeout=10)
+            r = requests.get(url, timeout=15)
             data = r.json()
             
             if "message" in data and "items" in data["message"]:
                 for item in data["message"]["items"]:
-                    title = item.get("title", ["Sin título"])[0]
-                    link = item.get("URL", "")
+                    # Limpiamos título y autores
+                    title_raw = item.get("title", ["Sin título"])[0]
+                    title = html.escape(title_raw)
+                    
+                    link = html.escape(item.get("URL", ""))
                     doi = item.get("DOI", "")
                     
-                    # Intentar parsear fecha
+                    # Fecha
                     pub_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
                     if "created" in item and "date-time" in item["created"]:
-                        pub_date = datetime.fromisoformat(item["created"]["date-time"].replace("Z", "+00:00")).strftime("%a, %d %b %Y %H:%M:%S GMT")
+                        try:
+                            pub_date = datetime.fromisoformat(item["created"]["date-time"].replace("Z", "+00:00")).strftime("%a, %d %b %Y %H:%M:%S GMT")
+                        except:
+                            pass # Usar fecha actual si falla el parseo
 
                     # Autores
                     authors = []
                     if "author" in item:
                         for a in item["author"]:
                             authors.append(f"{a.get('given', '')} {a.get('family', '')}")
-                    author_str = ", ".join(authors)
+                    author_str = html.escape(", ".join(authors))
 
                     # Construimos el ítem RSS
                     rss_items += f"""
                     <item>
-                        <title>[{name}] {html.escape(title)}</title>
+                        <title>[{safe_name}] {title}</title>
                         <link>{link}</link>
                         <guid isPermaLink="false">{doi}</guid>
                         <pubDate>{pub_date}</pubDate>
-                        <description><![CDATA[Autores: {html.escape(author_str)}]]></description>
+                        <description><![CDATA[Autores: {author_str}]]></description>
                     </item>"""
                 print(f"✅ {name}: Procesado correctamente.")
             else:
@@ -60,21 +67,20 @@ def generate_rss():
         except Exception as e:
             print(f"❌ Error con {name}: {e}")
 
-    # Estructura final del RSS
+    # Estructura final
     rss_feed = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
     <title>Academic Watchlist</title>
-    <description>Feed generado automáticamente via CrossRef</description>
-    <link>https://github.com/tu-usuario/academic-watch</link>
+    <description>Feed generado via CrossRef</description>
+    <link>https://github.com/saulmx-sketch/academic-watch</link>
     {rss_items}
 </channel>
 </rss>"""
 
-    # Guardamos el archivo
     with open("feed.xml", "w", encoding="utf-8") as f:
         f.write(rss_feed)
-    print("Feed generado exitosamente: feed.xml")
+    print("Feed generado exitosamente.")
 
 if __name__ == "__main__":
     generate_rss()
