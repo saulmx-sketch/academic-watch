@@ -2,16 +2,9 @@
 <rss version="2.0">
 <channel>
     <title>Academic Watchlist</title>
-    <description>Feed generado automáticamente via CrossRef</description>
-    <link>https://github.com/tu-usuario/academic-watch</link>
+    <description>Feed generado via CrossRef</description>
+    <link>https://github.com/saulmx-sketch/academic-watch</link>
     
-                    <item>
-                        <title>[HAHR] America, América: A New History of the New World</title>
-                        <link>https://doi.org/10.1215/00182168-12333891</link>
-                        <guid isPermaLink="false">10.1215/00182168-12333891</guid>
-                        <pubDate>Tue, 30 Dec 2025 09:09:05 GMT</pubDate>
-                        <description><![CDATA[Autores: Ricardo D. Salvatore]]></description>
-                    </item>
                     <item>
                         <title>[HAHR] Frontier Justice: State, Law, and Society in Patagonia, 1880–1940</title>
                         <link>https://doi.org/10.1215/00182168-12333851</link>
@@ -25,6 +18,13 @@
                         <guid isPermaLink="false">10.1215/00182168-12333771</guid>
                         <pubDate>Tue, 30 Dec 2025 09:06:08 GMT</pubDate>
                         <description><![CDATA[Autores: Amanda Summers]]></description>
+                    </item>
+                    <item>
+                        <title>[HAHR] America, América: A New History of the New World</title>
+                        <link>https://doi.org/10.1215/00182168-12333891</link>
+                        <guid isPermaLink="false">10.1215/00182168-12333891</guid>
+                        <pubDate>Tue, 30 Dec 2025 09:09:05 GMT</pubDate>
+                        <description><![CDATA[Autores: Ricardo D. Salvatore]]></description>
                     </item>
                     <item>
                         <title>[HAHR] Mexican Canto Nuevo: Music, Politics, and Resistance</title>
@@ -41,35 +41,35 @@
                         <description><![CDATA[Autores: Joseph U. Lenti]]></description>
                     </item>
                     <item>
-                        <title>[Gender & History] Consent in the Presence of Force: Sexual Violence and Black Women&#x27;s Survival in Antebellum New Orleans</title>
+                        <title>[Gender &amp; History] Consent in the Presence of Force: Sexual Violence and Black Women&#x27;s Survival in Antebellum New Orleans</title>
                         <link>https://doi.org/10.1111/1468-0424.70031</link>
                         <guid isPermaLink="false">10.1111/1468-0424.70031</guid>
                         <pubDate>Sat, 13 Dec 2025 03:22:42 GMT</pubDate>
                         <description><![CDATA[Autores: Selina Patel Nascimento]]></description>
                     </item>
                     <item>
-                        <title>[Gender & History] Migration, Repression and Homosexual Sociability in Francoist Spain: An Analysis of the Case Files of the Special Courts of Barcelona (1965–1975)</title>
+                        <title>[Gender &amp; History] Migration, Repression and Homosexual Sociability in Francoist Spain: An Analysis of the Case Files of the Special Courts of Barcelona (1965–1975)</title>
                         <link>https://doi.org/10.1111/1468-0424.70004</link>
                         <guid isPermaLink="false">10.1111/1468-0424.70004</guid>
                         <pubDate>Thu, 27 Nov 2025 05:00:55 GMT</pubDate>
                         <description><![CDATA[Autores: Jordi Mas Grau, Rafael Cáceres‐Feria]]></description>
                     </item>
                     <item>
-                        <title>[Gender & History] Issue Information</title>
+                        <title>[Gender &amp; History] Issue Information</title>
                         <link>https://doi.org/10.1111/1468-0424.12798</link>
                         <guid isPermaLink="false">10.1111/1468-0424.12798</guid>
                         <pubDate>Thu, 18 Dec 2025 08:52:28 GMT</pubDate>
                         <description><![CDATA[Autores: ]]></description>
                     </item>
                     <item>
-                        <title>[Gender & History] The Girls Are in Town: Purdah, Emotions and Everyday Resistance in Urban Pakistan</title>
+                        <title>[Gender &amp; History] The Girls Are in Town: Purdah, Emotions and Everyday Resistance in Urban Pakistan</title>
                         <link>https://doi.org/10.1111/1468-0424.70014</link>
                         <guid isPermaLink="false">10.1111/1468-0424.70014</guid>
                         <pubDate>Sat, 11 Oct 2025 06:20:05 GMT</pubDate>
                         <description><![CDATA[Autores: Elisabetta Iob]]></description>
                     </item>
                     <item>
-                        <title>[Gender & History] Gender and Segregation: An Introduction</title>
+                        <title>[Gender &amp; History] Gender and Segregation: An Introduction</title>
                         <link>https://doi.org/10.1111/1468-0424.70022</link>
                         <guid isPermaLink="false">10.1111/1468-0424.70022</guid>
                         <pubDate>Wed, 29 Oct 2025 06:46:19 GMT</pubDate>
