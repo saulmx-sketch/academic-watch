@@ -12,7 +12,8 @@ JOURNALS = {
     "LARR": "1542-4278",
     "JLAS": "1469-767X",
     "Mexican Studies": "1533-8320",
-    "JILAR": "1469-9524"
+    "JILAR": "1469-9524",
+    "Arenal": "1134-6396"
 }
 
 def generate_rss():
