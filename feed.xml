@@ -6,13 +6,6 @@
     <link>https://github.com/saulmx-sketch/academic-watch</link>
     
                     <item>
-                        <title>[HAHR] America, América: A New History of the New World</title>
-                        <link>https://doi.org/10.1215/00182168-12333891</link>
-                        <guid isPermaLink="false">10.1215/00182168-12333891</guid>
-                        <pubDate>Tue, 30 Dec 2025 09:09:05 GMT</pubDate>
-                        <description><![CDATA[Autores: Ricardo D. Salvatore]]></description>
-                    </item>
-                    <item>
                         <title>[HAHR] Frontier Justice: State, Law, and Society in Patagonia, 1880–1940</title>
                         <link>https://doi.org/10.1215/00182168-12333851</link>
                         <guid isPermaLink="false">10.1215/00182168-12333851</guid>
@@ -25,6 +18,13 @@
                         <guid isPermaLink="false">10.1215/00182168-12333771</guid>
                         <pubDate>Tue, 30 Dec 2025 09:06:08 GMT</pubDate>
                         <description><![CDATA[Autores: Amanda Summers]]></description>
+                    </item>
+                    <item>
+                        <title>[HAHR] America, América: A New History of the New World</title>
+                        <link>https://doi.org/10.1215/00182168-12333891</link>
+                        <guid isPermaLink="false">10.1215/00182168-12333891</guid>
+                        <pubDate>Tue, 30 Dec 2025 09:09:05 GMT</pubDate>
+                        <description><![CDATA[Autores: Ricardo D. Salvatore]]></description>
                     </item>
                     <item>
                         <title>[HAHR] Mexican Canto Nuevo: Music, Politics, and Resistance</title>
@@ -310,18 +310,18 @@
                         <description><![CDATA[Autores: Fabiola Bailón Vásquez]]></description>
                     </item>
                     <item>
-                        <title>[Arenal] Honra, calumnias y muchachas modernas. Modelos  y contramodelos de feminidad en el cine español de  la Segunda República.</title>
-                        <link>https://doi.org/10.30827/arenal.v32i2.31533</link>
-                        <guid isPermaLink="false">10.30827/arenal.v32i2.31533</guid>
-                        <pubDate>Mon, 15 Dec 2025 07:48:22 GMT</pubDate>
-                        <description><![CDATA[Autores: Elena Solbes Borja]]></description>
-                    </item>
-                    <item>
                         <title>[Arenal] Separadas, adúlteras y mancebas.   La (in)disolubilidad marital en el franquismo  (1945-1966).</title>
                         <link>https://doi.org/10.30827/arenal.v32i2.31258</link>
                         <guid isPermaLink="false">10.30827/arenal.v32i2.31258</guid>
                         <pubDate>Mon, 15 Dec 2025 07:48:25 GMT</pubDate>
                         <description><![CDATA[Autores: Tamara López Fernández]]></description>
+                    </item>
+                    <item>
+                        <title>[Arenal] Honra, calumnias y muchachas modernas. Modelos  y contramodelos de feminidad en el cine español de  la Segunda República.</title>
+                        <link>https://doi.org/10.30827/arenal.v32i2.31533</link>
+                        <guid isPermaLink="false">10.30827/arenal.v32i2.31533</guid>
+                        <pubDate>Mon, 15 Dec 2025 07:48:22 GMT</pubDate>
+                        <description><![CDATA[Autores: Elena Solbes Borja]]></description>
                     </item>
                     <item>
                         <title>[Arenal] “Muchachos y muchachas se tratan con toda libertad”.</title>
