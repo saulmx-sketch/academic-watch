@@ -6,13 +6,6 @@
     <link>https://github.com/saulmx-sketch/academic-watch</link>
     
                     <item>
-                        <title>[HAHR] America, América: A New History of the New World</title>
-                        <link>https://doi.org/10.1215/00182168-12333891</link>
-                        <guid isPermaLink="false">10.1215/00182168-12333891</guid>
-                        <pubDate>Tue, 30 Dec 2025 09:09:05 GMT</pubDate>
-                        <description><![CDATA[Autores: Ricardo D. Salvatore]]></description>
-                    </item>
-                    <item>
                         <title>[HAHR] Frontier Justice: State, Law, and Society in Patagonia, 1880–1940</title>
                         <link>https://doi.org/10.1215/00182168-12333851</link>
                         <guid isPermaLink="false">10.1215/00182168-12333851</guid>
@@ -27,6 +20,13 @@
                         <description><![CDATA[Autores: Amanda Summers]]></description>
                     </item>
                     <item>
+                        <title>[HAHR] America, América: A New History of the New World</title>
+                        <link>https://doi.org/10.1215/00182168-12333891</link>
+                        <guid isPermaLink="false">10.1215/00182168-12333891</guid>
+                        <pubDate>Tue, 30 Dec 2025 09:09:05 GMT</pubDate>
+                        <description><![CDATA[Autores: Ricardo D. Salvatore]]></description>
+                    </item>
+                    <item>
                         <title>[HAHR] Mexican Canto Nuevo: Music, Politics, and Resistance</title>
                         <link>https://doi.org/10.1215/00182168-12333827</link>
                         <guid isPermaLink="false">10.1215/00182168-12333827</guid>
@@ -39,6 +39,20 @@
                         <guid isPermaLink="false">10.1215/00182168-12333843</guid>
                         <pubDate>Tue, 30 Dec 2025 09:08:05 GMT</pubDate>
                         <description><![CDATA[Autores: Joseph U. Lenti]]></description>
+                    </item>
+                    <item>
+                        <title>[Gender &amp; History] Virtue That Matters: Chastity Culture and Social Power in Chosŏn Korea, 1392–1910</title>
+                        <link>https://doi.org/10.1111/1468-0424.70028</link>
+                        <guid isPermaLink="false">10.1111/1468-0424.70028</guid>
+                        <pubDate>Tue, 03 Feb 2026 10:05:29 GMT</pubDate>
+                        <description><![CDATA[Autores: Ksenia Chizhova]]></description>
+                    </item>
+                    <item>
+                        <title>[Gender &amp; History] Human Rights and the Right to Life: Strategic Secularism in Mexico&#x27;s Partido Acción Nacional, 1990–2008</title>
+                        <link>https://doi.org/10.1111/1468-0424.70029</link>
+                        <guid isPermaLink="false">10.1111/1468-0424.70029</guid>
+                        <pubDate>Tue, 03 Feb 2026 10:04:36 GMT</pubDate>
+                        <description><![CDATA[Autores: Jennifer Nelson, Steven Wuhs]]></description>
                     </item>
                     <item>
                         <title>[Gender &amp; History] Voice, Silence and Gender in South Africa&#x27;s Anti‐Apartheid Struggle: The Shadow of a Young Woman</title>
@@ -62,20 +76,6 @@
                         <guid isPermaLink="false">10.1111/1468-0424.70033</guid>
                         <pubDate>Fri, 23 Jan 2026 12:00:32 GMT</pubDate>
                         <description><![CDATA[Autores: Giselle Bernard]]></description>
-                    </item>
-                    <item>
-                        <title>[Gender &amp; History] Teaching Gender: The British University and the Rise of Heterosexuality, 1860–1939</title>
-                        <link>https://doi.org/10.1111/1468-0424.70030</link>
-                        <guid isPermaLink="false">10.1111/1468-0424.70030</guid>
-                        <pubDate>Tue, 20 Jan 2026 11:11:52 GMT</pubDate>
-                        <description><![CDATA[Autores: Dominic Janes]]></description>
-                    </item>
-                    <item>
-                        <title>[Gender &amp; History] Cuttings, Combings, Fettlings and Flock: Gender and Australian Wool ‘Waste’, 1900–1950</title>
-                        <link>https://doi.org/10.1111/1468-0424.70019</link>
-                        <guid isPermaLink="false">10.1111/1468-0424.70019</guid>
-                        <pubDate>Tue, 20 Jan 2026 11:09:36 GMT</pubDate>
-                        <description><![CDATA[Autores: Lorinda Cramer]]></description>
                     </item>
                     <item>
                         <title>[Radical History] Uncovering Radical Histories: Anna Budu-Arthur’s Everyday Politics of Decolonization and Transnational Solidarity</title>
@@ -326,11 +326,11 @@
                         <description><![CDATA[Autores: Elena Solbes Borja]]></description>
                     </item>
                     <item>
-                        <title>[Arenal] Sara Fistel, trazos de una feminista en la Argentina de entreguerras.</title>
-                        <link>https://doi.org/10.30827/arenal.v32i2.28773</link>
-                        <guid isPermaLink="false">10.30827/arenal.v32i2.28773</guid>
-                        <pubDate>Mon, 15 Dec 2025 07:48:29 GMT</pubDate>
-                        <description><![CDATA[Autores: Marcela Vignoli]]></description>
+                        <title>[Arenal] “Muchachos y muchachas se tratan con toda libertad”.</title>
+                        <link>https://doi.org/10.30827/arenal.v32i2.31677</link>
+                        <guid isPermaLink="false">10.30827/arenal.v32i2.31677</guid>
+                        <pubDate>Mon, 15 Dec 2025 07:48:21 GMT</pubDate>
+                        <description><![CDATA[Autores: Mélanie Ibáñez Domingo]]></description>
                     </item>
 </channel>
 </rss>
