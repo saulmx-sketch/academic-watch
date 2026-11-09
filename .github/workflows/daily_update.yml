@@ -2,33 +2,45 @@ name: Actualizar RSS Académico
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Se ejecuta todos los días a las 8:00 UTC
-  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
+    # 11:23 UTC = 5:23 de la mañana en Ciudad de México. El minuto raro evita la
+    # fila de las horas en punto, donde GitHub retrasa o tira corridas.
+    - cron: '23 11 * * *'
+  workflow_dispatch: # botón "Run workflow" para correrlo a mano
+  push: # al editar la lista de revistas o el programa, el feed se regenera solo
+    branches: [main]
+    paths: ['revistas.txt', 'main.py', '.github/workflows/daily_update.yml']
 
 permissions:
   contents: write
 
+concurrency:
+  group: feed
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Checkout del código
-        uses: actions/checkout@v3
+      - name: Traer el repositorio
+        uses: actions/checkout@v7
 
-      - name: Configurar Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
+      - name: Generar feed.xml e index.html
+        id: feed
+        run: python3 main.py
+        env:
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
 
-      - name: Instalar dependencias
-        run: pip install requests
-
-      - name: Ejecutar script
-        run: python main.py
-
-      - name: Guardar cambios (Commit & Push)
+      - name: Guardar cambios
+        # corre aunque el paso anterior avise de un ISSN malo: lo demás sí se publica
+        if: ${{ !cancelled() }}
         run: |
-          git config --global user.name 'AcademicBot'
-          git config --global user.email 'bot@noreply.github.com'
-          git add feed.xml
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Actualizar feed.xml" && git push)
+          git add feed.xml index.html
+          if git diff --staged --quiet; then
+            echo "Sin novedades: no hay nada que guardar."
+            exit 0
+          fi
+          git config user.name 'AcademicBot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -q -m "Actualizar feed (+${{ steps.feed.outputs.nuevos || 0 }})"
+          git push || (git pull --rebase && git push)
