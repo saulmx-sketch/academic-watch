@@ -1,0 +1,58 @@
+# Revistas vigiladas. Una por renglón, con este formato:
+#
+#     Sigla | ISSN | Grupo
+#
+# - Sigla: el nombre corto que verás entre corchetes en tu lector, p. ej. [HAHR].
+# - ISSN: el número de registro de la revista (el impreso o el electrónico, cualquiera sirve).
+#   Se busca en la página de la revista o en https://portal.issn.org
+# - Grupo: la sección donde aparece en la página web.
+#
+# Para dejar de vigilar una revista, pon # al inicio de su renglón.
+# Para activar una de las sugeridas del final, quítale el #.
+# Al guardar este archivo en GitHub el feed se regenera solo en un par de minutos.
+# Si un ISSN está mal escrito o no existe, la corrida falla y GitHub te avisa por correo.
+
+# --- América Latina y México ---
+HAHR                | 1527-1900 | América Latina y México
+The Americas        | 1533-6247 | América Latina y México
+LARR                | 1542-4278 | América Latina y México
+JLAS                | 1469-767X | América Latina y México
+Mexican Studies     | 1533-8320 | América Latina y México
+JILAR               | 1469-9524 | América Latina y México
+Historia Mexicana   | 2448-6531 | América Latina y México
+Secuencia           | 2395-8464 | América Latina y México
+EHMCM               | 2448-5004 | América Latina y México
+Historia y Grafía   | 2448-783X | América Latina y México
+
+# --- Género, mujeres y sexualidad ---
+Gender & History    | 1468-0424 | Género y sexualidad
+GLQ                 | 1527-9375 | Género y sexualidad
+Arenal              | 1134-6396 | Género y sexualidad
+RIEG                | 2395-9185 | Género y sexualidad
+Debate Feminista    | 2594-066X | Género y sexualidad
+La Ventana          | 2448-7724 | Género y sexualidad
+J Women's History   | 1527-2036 | Género y sexualidad
+J Hist Sexuality    | 1535-3605 | Género y sexualidad
+Signs               | 1545-6943 | Género y sexualidad
+
+# --- Religión y catolicismo ---
+Religion & Gender   | 1878-5417 | Religión
+Catholic Hist Rev   | 1534-0708 | Religión
+Social Compass      | 1461-7404 | Religión
+
+# --- Historia general, radical y Guerra Fría ---
+Radical History     | 1534-1453 | Historia general y Guerra Fría
+Cold War History    | 1743-7962 | Historia general y Guerra Fría
+
+# --- Sugeridas, apagadas (ISSN ya verificados; quita el # para activarlas) ---
+# Politics & Gender   | 1743-9248 | Género y sexualidad
+# Women's Hist Rev    | 1747-583X | Género y sexualidad
+# Feminist Studies    | 2153-3873 | Género y sexualidad
+# Church History      | 1755-2613 | Religión
+# US Catholic Hist    | 1947-8224 | Religión
+# J Religious History | 1467-9809 | Religión
+# J Cold War Studies  | 1531-3298 | Historia general y Guerra Fría
+# BLAR                | 1470-9856 | América Latina y México
+# Lat Am Perspectives | 1552-678X | América Latina y México
+# JLACS               | 1469-9575 | América Latina y México
+# Estudios Sociológicos | 2448-6442 | América Latina y México
