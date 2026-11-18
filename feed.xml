@@ -5,7 +5,16 @@
     <link>https://saulmx-sketch.github.io/academic-watch/</link>
     <description>Artículos nuevos de las revistas vigiladas, vía Crossref (últimos 60 días)</description>
     <atom:link href="https://saulmx-sketch.github.io/academic-watch/feed.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 12 Nov 2026 15:52:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 01:59:00 GMT</lastBuildDate>
+    <item>
+      <title>[Cold War History] The allure of the unattainable: CARE, Cold War humanitarianism and political utility in East Germany</title>
+      <link>https://doi.org/10.1080/14682745.2026.2710102</link>
+      <guid isPermaLink="false">10.1080/14682745.2026.2710102</guid>
+      <pubDate>Wed, 18 Nov 2026 01:59:00 GMT</pubDate>
+      <dc:creator>Maxmillian Klose</dc:creator>
+      <category>Historia general y Guerra Fría</category>
+      <description>&lt;p&gt;&lt;b&gt;Maxmillian Klose&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Cold War History, pp. 1-18 · publicado 2026-11-17&lt;/i&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>[Secuencia] Entre la desobediencia y el agravio. El pleito por tierras entre Zapaluta y Manuel José de Rojas</title>
       <link>https://doi.org/10.18234/secuencia.v0i126.2646</link>
@@ -2642,15 +2651,6 @@
       <dc:creator>Cassandra Annapoorna Ellerbe, Carine Plancke</dc:creator>
       <category>Religión</category>
       <description>&lt;p&gt;&lt;b&gt;Cassandra Annapoorna Ellerbe, Carine Plancke&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Religion and Gender, vol. 16, núm. 3, pp. 245-256 · publicado 2026-09-15&lt;/i&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[Cold War History] Securing peace in Europe: Strobe Talbott, NATO, and Russia after the Cold War: Stephan Kieninger, (New York: Columbia University Press, 2025), xxxii + 339 pp.</title>
-      <link>https://doi.org/10.1080/14682745.2026.2732359</link>
-      <guid isPermaLink="false">10.1080/14682745.2026.2732359</guid>
-      <pubDate>Fri, 18 Sep 2026 01:44:26 GMT</pubDate>
-      <dc:creator>Bradley Reynolds</dc:creator>
-      <category>Historia general y Guerra Fría</category>
-      <description>&lt;p&gt;&lt;b&gt;Bradley Reynolds&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;i&gt;Cold War History, pp. 1-4 · publicado 2026-09-17&lt;/i&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
